@@ -15,7 +15,7 @@ A simple Todo Web App built using React, allowing users to manage their tasks ea
 1. Clone the repository:
 
 
-   git clone https://github.com/shoaibhasann/MileStone-Repo/edit/main/Project-3.git
+   git clone [https://github.com/shoaibhasann/MileStone-Repo/edit/main/Project-3.git](https://github.com/shoaibhasann/MileStone-Repo.git)
    cd Project-3
 
 
