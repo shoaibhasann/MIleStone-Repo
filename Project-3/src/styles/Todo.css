@@ -1,7 +1,7 @@
 .add__todo{
     position: relative;
-    margin: 55px 10px;
-    max-width: 1240px;
+    margin: 55px auto;
+    width:  50vw;
 }
 
 .add__todo input{
@@ -63,7 +63,13 @@ input:focus{
 .todo__list{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .add__todo{
+        width: 90vw;
+    }
 }
