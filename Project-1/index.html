@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PWSkills Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PW Skills Blog</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,22 +10,17 @@
       <h1>PWSkills Blog</h1>
       <button id="createBlog">&#43;</button>
     </nav>
-    <main id="blog__container">
-        <div class="blog__card">
-            <div class="image__wrapper" data-id="1">
-                <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Image">
-            </div>
-            <h2 class="blog__title">The Journey into Full Stack Web Development</h2>
-            <p class="blog__description">In today's digital age, the role of a web developer has evolved into a fascinating and dynamic realm known as Full Stack Web Development. As technology continues to advance, the demand for versatile developers who can navigate both the front-end and back-end aspects of web applications has soared. In this blog, we'll take a deep dive into the world of Full Stack Web Development, exploring its significance, components, and the skills required to become a proficient full stack developer.</p>
-            <button class="read__more">Read More</button>
-        </div>
-      <div id="myModal" class="modal">
+    <main>
+      <div id="blog__container">
+        <!-- Blog cards will be appended here -->
+      </div>
+      <div id="modal">
         <button id="close">&#x2715;</button>
         <div class="modal__content">
           <input type="text" name="url" id="url" placeholder="Enter blog post URL:">
           <input type="text" name="title" id="title" placeholder="Enter blog title:">
           <input type="text" name="description" id="description" placeholder="Enter blog description:">
-          <textarea name="" id="write" cols="30" rows="10" id="write" placeholder="write"></textarea>
+          <textarea name="write" id="write" cols="30" rows="10" placeholder="write"></textarea>
           <button type="submit" id="add__btn">Add Blog</button>
         </div>
       </div>
